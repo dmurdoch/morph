@@ -1,0 +1,7 @@
+export("morph3d", "morph3dplot", "morph3dprep", "arraytrim")
+importFrom("reshape2", "melt")
+importFrom("rgl", "rgl.clear", "bg3d", "cube3d", "shade3d", "wire3d", "legend3d", "text3d", "open3d", "bgplot3d")
+importFrom("graphics", "plot.new", "title")
+importFrom("utils", "install.packages")
+importFrom("graphics", "par")
+import("igraph", "stringr")

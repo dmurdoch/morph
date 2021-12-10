@@ -1,0 +1,17 @@
+1b8b4856b40f27cd54636d166d5d939f *DESCRIPTION
+6054650c9e1cfb38769a896ce94e493f *NAMESPACE
+28d63c59d059e14192c64ca83dd696af *NEWS.md
+2c04b2fabc60a4ccbcbe81c48202bef5 *R/arraytrim.R
+8f26413e164d5bd6b7b8211124f872a8 *R/morph3d.R
+07980c1dc3e857aef137936b0401eb40 *R/morph3dlinks.R
+8bb724bc56edc1ab0ce1a1a5b467ea06 *R/morph3dplot.R
+3306925853a1ebb445d35b426fe82e7d *R/morph3dprep.R
+537f563c90cef9d3af0f5da4cb2e0cd1 *build/partial.rdb
+3676d449d16c3fa69888429d982e6282 *data/LEdemo.rda
+c116758b546cea5e3a2e5abc639e8258 *man/LEdemo.Rd
+939ff98c08e10d1fb46d4cb14827dc96 *man/arraytrim.Rd
+0ca2e3e8875e7b2c257bf77bae25f86d *man/morph-package.Rd
+2a8f9b6a4ba384a08bf129ba0b3d6fd2 *man/morph3d.Rd
+419abb4d2cd068ea98db6983a9b870ad *man/morph3dlinks.Rd
+faa3b51502b479da7ecd21f0172972ff *man/morph3dplot.Rd
+b6f2bb1c60b49c9ef26961e014914bb5 *man/morph3dprep.Rd
