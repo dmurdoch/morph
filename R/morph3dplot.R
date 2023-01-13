@@ -27,9 +27,11 @@ function(data=NULL, CELLID=TRUE, LEGEND=FALSE, ORIGTRANSP=TRUE) {
   #--------------------------------------------------------------
 
   # SAVE GRAPHIC PARAMETERS AND RESTATE THEM ON EXIT
-  opar <- par(no.readonly=TRUE)
-  on.exit(par(opar))
+  opar <- par3d(no.readonly=TRUE)
+  on.exit(par3d(opar))
 
+  par3d(skipRedraw = TRUE)
+  
   # GENERATE CUSTOM COLOUR PALETTE
   cols <- c("grey", "green", "black", "brown", "orange", "pink", "cornflowerblue", "navy", "seagreen", "olivedrab")
 
