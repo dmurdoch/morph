@@ -7,7 +7,7 @@ function(data=NULL, CELLID=TRUE, LEGEND=FALSE, ORIGTRANSP=TRUE) {
   # FILENAME:  morph3d_Final.r
   # AUTHOR:    TARMO K REMMEL
   # DATE:      11 November 2021
-  # CALLS:     rgl.clear, bg3d, cube3d, shade3d, wire3d, legend3d
+  # CALLS:     clear3d, bg3d, cube3d, shade3d, wire3d, legend3d
   # CALLED BY: NA
   # NEEDS:     rgl
   # NOTES:     Given a 3D morphological segmentation (3D array that
@@ -34,7 +34,7 @@ function(data=NULL, CELLID=TRUE, LEGEND=FALSE, ORIGTRANSP=TRUE) {
   cols <- c("grey", "green", "black", "brown", "orange", "pink", "cornflowerblue", "navy", "seagreen", "olivedrab")
 
   # CLEAR THE DISPLAY AND SET THE BACKGROUND TO WHITE
-  rgl.clear()
+  clear3d()
   bg3d('white')
 
   # AN AN ALPHA COLUMN TO CONTROL TRANSPARENCY PER EACH VOXEL (TIED TO COLOUR)
